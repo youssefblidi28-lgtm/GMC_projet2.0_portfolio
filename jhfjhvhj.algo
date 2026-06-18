@@ -1,0 +1,18 @@
+algorithm_the sentence_add
+var
+nb,nb1,nb2:integer
+ch:string
+i:integer
+ch1:=ch[0,ch[:]]
+begin
+read(ch)
+while ch<>'.'do
+    nb:=nb+1
+    if ch=' ' do
+        nb1=nb+1
+    end if
+    if ch='a' or ch='o' or ch='i'or ch='u'or ch='y' or ch='A' or ch='O' or ch='I'or ch='U'or ch='Y' do
+        nb2=nb2+1
+    end if
+end while
+end
